@@ -49,7 +49,7 @@ nav{
     top: 0;
     left: 0;
     border-radius: 50%;
-    background: #ccc;
+    
 
 }
 .feature img {
@@ -94,4 +94,25 @@ nav{
     left: 35%;
     transform: translateY(-50%);
     z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+.control h3{
+    margin: 15px 0;
+    color: #fff;
+}
+#upBtn{
+    width: 15px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);     
 }
